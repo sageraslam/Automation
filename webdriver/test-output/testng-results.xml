@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Adhoc" duration-ms="35826" started-at="2020-01-21T19:35:15 EST" finished-at="2020-01-21T19:35:51 EST">
+    <groups>
+    </groups>
+    <test name="Frontend" duration-ms="35826" started-at="2020-01-21T19:35:15 EST" finished-at="2020-01-21T19:35:51 EST">
+      <class name="Framework.FacebookHomePage">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Framework.FacebookHomePage@578486a3]" name="beforeClass" is-config="true" duration-ms="10364" started-at="2020-01-21T19:35:34 EST" finished-at="2020-01-21T19:35:44 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https:www.facebook.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Framework.FacebookHomePage@578486a3]" name="f" duration-ms="2863" started-at="2020-01-21T19:35:44 EST" finished-at="2020-01-21T19:35:47 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Framework.FacebookHomePage@578486a3]" name="afterClass" is-config="true" duration-ms="3910" started-at="2020-01-21T19:35:47 EST" finished-at="2020-01-21T19:35:51 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Framework.FacebookHomePage -->
+      <class name="Framework.AmazonHomepage">
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:Framework.AmazonHomepage@1f36e637]" name="beforeClass" is-config="true" duration-ms="8853" started-at="2020-01-21T19:35:15 EST" finished-at="2020-01-21T19:35:24 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https:www.amazon.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="f()[pri:0, instance:Framework.AmazonHomepage@1f36e637]" name="f" duration-ms="5049" started-at="2020-01-21T19:35:24 EST" finished-at="2020-01-21T19:35:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:Framework.AmazonHomepage@1f36e637]" name="afterClass" is-config="true" duration-ms="4711" started-at="2020-01-21T19:35:29 EST" finished-at="2020-01-21T19:35:34 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- Framework.AmazonHomepage -->
+    </test> <!-- Frontend -->
+  </suite> <!-- Adhoc -->
+</testng-results>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Adhoc">
+<parameter name ="envir" value="https:www.amazon.com"></parameter>
+<parameter name ="envir2" value="https:www.facebook.com"></parameter>
+<parameter name ="browser" value ="firefox"></parameter>
+<test name ="Frontend">
+<classes>
+<class name = "Framework.AmazonHomepage"></class>
+<class name = "Framework.FacebookHomePage"></class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Adhoc]">
+  <parameter name="envir2" value="https:www.facebook.com"/>
+  <parameter name="envir" value="https:www.amazon.com"/>
+  <parameter name="browser" value="firefox"/>
+  <test thread-count="5" name="Frontend(failed)">
+    <classes>
+      <class name="Framework.AmazonHomepage">
+        <methods>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- Framework.AmazonHomepage -->
+      <class name="Framework.FacebookHomePage">
+        <methods>
+          <include name="f"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- Framework.FacebookHomePage -->
+    </classes>
+  </test> <!-- Frontend(failed) -->
+</suite> <!-- Failed suite [Adhoc] -->
